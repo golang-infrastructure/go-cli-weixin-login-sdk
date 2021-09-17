@@ -41,5 +41,5 @@ func ShowQRCodeOnCLI(content string) {
 		sb.WriteString("\n")
 	}
 	sb.WriteString("\n")
-	logger.Red(sb.String())
+	logger.White(sb.String())
 }

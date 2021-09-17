@@ -170,7 +170,7 @@ func ParseWxLoginCheckResponse(responseBody string) *checkResult {
 	}
 	return &checkResult{
 		StatusCode:  status,
-		SuccessCode: codeSplit[1],
+		SuccessCode: strings.Trim(codeSplit[1], "'"),
 	}
 }
 

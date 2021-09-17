@@ -16,8 +16,11 @@ func GetAsString(urlString string) (string, error) {
 			New().
 			SetTimeout(time.Second*30).
 			R().
-			SetHeader("user-agent", "Mozilla / 5.0 (Windows NT 10.0; WOW64) AppleWebKit / 537.36 (KHTML, like Gecko) Chrome / 63.0.3239.132 Safari / 537.36 (WenZaiZhiBoClient-Windows7-weishi-8.6.6)").
-			SetHeader("accept-encoding", "gzip, deflate").
+			SetHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36").
+			SetHeader("Accept-Encoding", "gzip, deflate").
+			SetHeader("Accept", "*/*").
+			SetHeader("Accept-Language", "zh-CN,zh;q=0.9").
+			SetHeader("Referer", "https://open.weixin.qq.com/").
 			Get(urlString)
 
 		if err != nil {

@@ -2,8 +2,8 @@ package http_client
 
 import (
 	"errors"
-	"github.com/CC11001100/go-cli-weixin-login-sdk/internal/logger"
 	"github.com/go-resty/resty/v2"
+	"github.com/golang-infrastructure/go-cli-weixin-login-sdk/internal/logger"
 	"time"
 )
 

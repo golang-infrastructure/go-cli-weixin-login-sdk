@@ -3,9 +3,9 @@ package go_cli_weixin_login_sdk
 import (
 	"errors"
 	"fmt"
-	"github.com/CC11001100/go-cli-weixin-login-sdk/internal/cli_qrcode"
-	"github.com/CC11001100/go-cli-weixin-login-sdk/internal/http_client"
-	"github.com/CC11001100/go-cli-weixin-login-sdk/internal/logger"
+	"github.com/golang-infrastructure/go-cli-weixin-login-sdk/internal/cli_qrcode"
+	"github.com/golang-infrastructure/go-cli-weixin-login-sdk/internal/http_client"
+	"github.com/golang-infrastructure/go-cli-weixin-login-sdk/internal/logger"
 	"regexp"
 	"strconv"
 	"strings"

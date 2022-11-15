@@ -2,7 +2,7 @@ package cli_qrcode
 
 import (
 	"bytes"
-	"github.com/CC11001100/go-cli-weixin-login-sdk/internal/logger"
+	"github.com/golang-infrastructure/go-cli-weixin-login-sdk/internal/logger"
 	"github.com/skip2/go-qrcode"
 	"image/png"
 	"strings"
